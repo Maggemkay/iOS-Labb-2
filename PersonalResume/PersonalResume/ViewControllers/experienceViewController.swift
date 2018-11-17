@@ -6,7 +6,7 @@
 //  Copyright © 2018 Marcus Gullstrand. All rights reserved.
 //
 
-import Foundation
+//import Foundation
 import UIKit
 
 class experienceViewController: UIViewController {

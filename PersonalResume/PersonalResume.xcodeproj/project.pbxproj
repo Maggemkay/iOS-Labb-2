@@ -13,7 +13,6 @@
 		5732BA9721A02C0100FB73BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5732BA9621A02C0100FB73BE /* Assets.xcassets */; };
 		5732BA9A21A02C0100FB73BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5732BA9821A02C0100FB73BE /* LaunchScreen.storyboard */; };
 		57991DD821A07A2C005C4D2A /* experienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57991DD621A077F1005C4D2A /* experienceViewController.swift */; };
-		57991DDA21A07E27005C4D2A /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57991DD921A07E27005C4D2A /* testViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		5732BA9921A02C0100FB73BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5732BA9B21A02C0100FB73BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57991DD621A077F1005C4D2A /* experienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = experienceViewController.swift; sourceTree = "<group>"; };
-		57991DD921A07E27005C4D2A /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +71,6 @@
 			children = (
 				5732BA9121A02BFF00FB73BE /* mainViewController.swift */,
 				57991DD621A077F1005C4D2A /* experienceViewController.swift */,
-				57991DD921A07E27005C4D2A /* testViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -151,7 +148,6 @@
 			files = (
 				5732BA9221A02BFF00FB73BE /* mainViewController.swift in Sources */,
 				5732BA9021A02BFF00FB73BE /* AppDelegate.swift in Sources */,
-				57991DDA21A07E27005C4D2A /* testViewController.swift in Sources */,
 				57991DD821A07A2C005C4D2A /* experienceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

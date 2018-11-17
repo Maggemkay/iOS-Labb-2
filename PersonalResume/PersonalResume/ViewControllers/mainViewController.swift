@@ -14,9 +14,9 @@ class mainViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-    
+
 //    @IBAction func experienceButton(_ sender: Any) {
-//        performSegue(withIdentifier: "mainToExperience", sender: self)
+//        performSegue(withIdentifier: "toExperienceSegue", sender: self)
 //    }
     
     

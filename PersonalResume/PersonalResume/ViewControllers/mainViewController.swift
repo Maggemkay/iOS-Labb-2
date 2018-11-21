@@ -13,14 +13,12 @@ class mainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }    
+    
+    
+    @IBAction func experienceButton(_ sender: UIButton) {
+        performSegue(withIdentifier: "experienceSegue", sender: self)
     }
-
-//    @IBAction func experienceButton(_ sender: Any) {
-//        performSegue(withIdentifier: "toExperienceSegue", sender: self)
-//    }
     
-    
-    
-
 }
 

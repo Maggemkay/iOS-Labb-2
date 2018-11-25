@@ -13,6 +13,9 @@
 		5732BA9521A02BFF00FB73BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5732BA9321A02BFF00FB73BE /* Main.storyboard */; };
 		5732BA9721A02C0100FB73BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5732BA9621A02C0100FB73BE /* Assets.xcassets */; };
 		5732BA9A21A02C0100FB73BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5732BA9821A02C0100FB73BE /* LaunchScreen.storyboard */; };
+		57850E9821AAB7A40020605B /* ExperienceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57850E9721AAB7A40020605B /* ExperienceTableViewCell.swift */; };
+		57850E9A21AABD240020605B /* experienceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57850E9921AABD240020605B /* experienceCell.swift */; };
+		57850E9C21AAFB1F0020605B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57850E9B21AAFB1F0020605B /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		5732BA9621A02C0100FB73BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5732BA9921A02C0100FB73BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5732BA9B21A02C0100FB73BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57850E9721AAB7A40020605B /* ExperienceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceTableViewCell.swift; sourceTree = "<group>"; };
+		57850E9921AABD240020605B /* experienceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = experienceCell.swift; sourceTree = "<group>"; };
+		57850E9B21AAFB1F0020605B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		5732BA8E21A02BFF00FB73BE /* PersonalResume */ = {
 			isa = PBXGroup;
 			children = (
+				57850E9221AAB7100020605B /* ExperienceTableView */,
 				57991DD321A06B3E005C4D2A /* ViewControllers */,
 				5732BA8F21A02BFF00FB73BE /* AppDelegate.swift */,
 				5732BA9321A02BFF00FB73BE /* Main.storyboard */,
@@ -66,10 +73,20 @@
 			path = PersonalResume;
 			sourceTree = "<group>";
 		};
+		57850E9221AAB7100020605B /* ExperienceTableView */ = {
+			isa = PBXGroup;
+			children = (
+				57850E9721AAB7A40020605B /* ExperienceTableViewCell.swift */,
+				57850E9921AABD240020605B /* experienceCell.swift */,
+			);
+			path = ExperienceTableView;
+			sourceTree = "<group>";
+		};
 		57991DD321A06B3E005C4D2A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				5732BA9121A02BFF00FB73BE /* mainViewController.swift */,
+				57850E9B21AAFB1F0020605B /* DetailsViewController.swift */,
 				5726296421A08731009F8C62 /* experienceViewController.swift */,
 			);
 			path = ViewControllers;
@@ -107,6 +124,7 @@
 				TargetAttributes = {
 					5732BA8B21A02BFF00FB73BE = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -146,9 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57850E9A21AABD240020605B /* experienceCell.swift in Sources */,
 				5732BA9221A02BFF00FB73BE /* mainViewController.swift in Sources */,
 				5732BA9021A02BFF00FB73BE /* AppDelegate.swift in Sources */,
 				5726296521A08731009F8C62 /* experienceViewController.swift in Sources */,
+				57850E9821AAB7A40020605B /* ExperienceTableViewCell.swift in Sources */,
+				57850E9C21AAFB1F0020605B /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +315,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PersonalResume/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,6 +324,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = guma1502.PersonalResume;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -311,6 +334,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PersonalResume/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -16,6 +16,7 @@
 		57850E9821AAB7A40020605B /* ExperienceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57850E9721AAB7A40020605B /* ExperienceTableViewCell.swift */; };
 		57850E9A21AABD240020605B /* experienceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57850E9921AABD240020605B /* experienceCell.swift */; };
 		57850E9C21AAFB1F0020605B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57850E9B21AAFB1F0020605B /* DetailsViewController.swift */; };
+		57D063C821AC002500C4A404 /* SkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D063C721AC002500C4A404 /* SkillsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		57850E9721AAB7A40020605B /* ExperienceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceTableViewCell.swift; sourceTree = "<group>"; };
 		57850E9921AABD240020605B /* experienceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = experienceCell.swift; sourceTree = "<group>"; };
 		57850E9B21AAFB1F0020605B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		57D063C721AC002500C4A404 /* SkillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				5732BA9121A02BFF00FB73BE /* mainViewController.swift */,
 				57850E9B21AAFB1F0020605B /* DetailsViewController.swift */,
 				5726296421A08731009F8C62 /* experienceViewController.swift */,
+				57D063C721AC002500C4A404 /* SkillsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				5732BA9221A02BFF00FB73BE /* mainViewController.swift in Sources */,
 				5732BA9021A02BFF00FB73BE /* AppDelegate.swift in Sources */,
 				5726296521A08731009F8C62 /* experienceViewController.swift in Sources */,
+				57D063C821AC002500C4A404 /* SkillsViewController.swift in Sources */,
 				57850E9821AAB7A40020605B /* ExperienceTableViewCell.swift in Sources */,
 				57850E9C21AAFB1F0020605B /* DetailsViewController.swift in Sources */,
 			);

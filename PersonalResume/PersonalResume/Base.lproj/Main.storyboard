@@ -233,18 +233,36 @@
         <!--Skills-->
         <scene sceneID="2fW-la-Tej">
             <objects>
-                <viewController title="Skills" id="qxK-0F-3nR" sceneMemberID="viewController">
+                <viewController title="Skills" id="qxK-0F-3nR" customClass="SkillsViewController" customModule="PersonalResume" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FpQ-OE-ng6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F4f-Z7-PmU" userLabel="RedCircle">
+                                <rect key="frame" x="132" y="178" width="150" height="150"/>
+                                <color key="backgroundColor" red="1" green="0.38168155295722028" blue="0.31121904905470921" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="jUx-f5-B1r"/>
+                                    <constraint firstAttribute="height" constant="150" id="nNL-vA-ZW4"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="F4f-Z7-PmU" firstAttribute="leading" secondItem="il9-zb-oiZ" secondAttribute="leading" constant="132" id="LOv-al-tQH"/>
+                            <constraint firstItem="il9-zb-oiZ" firstAttribute="trailing" secondItem="F4f-Z7-PmU" secondAttribute="trailing" constant="132" id="Zdx-cY-36g"/>
+                            <constraint firstItem="F4f-Z7-PmU" firstAttribute="top" secondItem="il9-zb-oiZ" secondAttribute="top" constant="90" id="qiq-bG-zgf"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="il9-zb-oiZ"/>
                     </view>
                     <navigationItem key="navigationItem" title="Skills" id="eZw-uv-rf3"/>
+                    <connections>
+                        <outlet property="redCircle" destination="F4f-Z7-PmU" id="M5J-ug-i3q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tgo-Ta-N2d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-120" y="834"/>
+            <point key="canvasLocation" x="-120.28985507246378" y="833.70535714285711"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="XWm-vu-7dn">
